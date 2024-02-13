@@ -1,0 +1,59 @@
+﻿body {
+    background-image: url(images/images/gameBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#deck {
+    margin-top: 35px;
+    height: 100%;
+    margin-left: 75px;
+}
+
+.card {
+    margin: 10px 20px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 4px 6px rgba(0, 0, 0, 0.45);
+    border-radius: 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 101px;
+    height: 146px;
+    float: left;
+}
+
+.playerCards {
+    margin-right: 55px;
+}
+
+.playerCards, #dealer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#dealer {
+    margin-right: 95px;
+}
+
+.playerTurn {
+    margin-left: 38px;
+}
+
+#dealer .card {
+    background-color: white;
+}
+
+.playerCards .card {
+    margin-right: -55px;
+    background-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+#timer {
+    font-family: 'Anton', sans-serif;
+    font-size: 14pt;
+    color:white;
+    margin-bottom: 20px;
+    margin-right: 98px;
+}
