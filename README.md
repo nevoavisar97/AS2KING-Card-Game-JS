@@ -14,12 +14,6 @@ This project is a JavaScript implementation of the card game "AS2KING" with adde
 - Display game state and options for resuming the game if the user interrupts.
 - Prioritize computer player actions based on predefined criteria.
 
-## How to Play:
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your web browser.
-3. Follow the on-screen instructions to play the game.
-4. Enjoy the game!
-
 ## Known Issues:
 - User interface may need further styling and optimization.
 - Computer player logic may require fine-tuning for optimal gameplay experience.
